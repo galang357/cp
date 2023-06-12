@@ -1,0 +1,81 @@
+.slider h3,
+.slider h5, 
+.services h3, 
+.navbar,
+.footer h5,
+.contact h3,
+.portfolio h3,
+.row h3 {
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.911);
+    font-family: Verdana, Tahoma, sans-serif;
+    color: blue;
+}
+
+.parallax-container {
+    height: 20%;
+}
+.parallax img {
+    filter: grayscale(1) 
+    opacity(0.8);
+        
+}
+
+.services img {
+    max-width: 25%;
+    filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.8));
+}
+
+section, footer {
+    padding: 75px 0;
+}
+.navbar img,
+.footer img {
+    display: flex;
+    padding: 5%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding: 2rem 7%;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-bottom: 1px solid rgba(66, 60, 94, 0.281);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 9999;
+}
+.navbar-fixed {
+    background-color: rgb(15, 19, 18);
+}
+.team h3 {
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.911);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.team img {
+    max-width: 40%;
+    filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.8));
+}
+.portfolio img {
+    max-width: 80%;
+    filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.8));
+}
+.row a {
+    color: white;
+}
+.h5 {
+    font-family: 'Times New Roman', serif;
+}
+#myButton {
+    background-color: rgba(0, 47, 255, 0.842);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #myButton.clicked {
+    background-color: #ff0000;
+  }
